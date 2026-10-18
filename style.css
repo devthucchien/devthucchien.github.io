@@ -24,6 +24,8 @@ body {
 
 a { color: var(--accent); text-underline-offset: 3px; }
 a:hover { text-decoration-thickness: 2px; }
+/* Long URLs and permission names wrap instead of widening the page on phones. */
+main a, main code { overflow-wrap: anywhere; }
 
 .wrap { max-width: 780px; margin: 0 auto; padding: 0 16px; }
 
